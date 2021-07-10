@@ -1,11 +1,12 @@
-const { build, createLogger, createServer } = require('vite')
+const { createDev, parseTarget } = require('./dev')
 
 const cli = require('cac')()
 const _args = require('minimist')(process.argv.slice(2))
 
-cli.command('dev [...targets]', 'Dev targets').
-  action((targets, options) => {
-    console.log('dev???', name)
+cli.command('dev <target>', 'Dev targets, divided by \',\'').
+  action((target, options) => {
+    const targets = parseTarget(target)
+    targets.forEach(createDev)
   })
 
 cli.help()

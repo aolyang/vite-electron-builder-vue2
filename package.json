@@ -5,7 +5,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "node scripts/cli.js dev"
+    "help": "node scripts/cli.js --help",
+    "dev": "node scripts/cli.js dev",
+    "start": "yarn dev electron,docs",
+    "start:web": "yarn dev web,docs"
   },
   "workspaces": [
     "packages/*"
