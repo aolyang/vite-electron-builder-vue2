@@ -1,0 +1,12 @@
+{
+  "root": {
+    "entry": "page-main",
+    "container": "#app",
+    "route": "/"
+  },
+  "cases": {
+    "entry": "page-cases",
+    "container": "#cases",
+    "route": "/cases"
+  }
+}

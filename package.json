@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "help": "node scripts/cli.js --help",
+    "how": "node scripts/cli.js --help",
     "dev": "node scripts/cli.js dev",
     "start": "yarn dev electron,docs",
     "start:web": "yarn dev web,docs"
@@ -13,7 +13,12 @@
   "workspaces": [
     "packages/*"
   ],
+  "dependencies": {
+    "@vue/composition-api": "^1.0.0-rc.14",
+    "vue": "^2.6.14"
+  },
   "devDependencies": {
+    "@rollup/plugin-dynamic-import-vars": "^1.1.1",
     "cac": "^6.7.3",
     "chalk": "^4.1.1",
     "cross-env": "^7.0.3",
@@ -22,6 +27,8 @@
     "fs-extra": "^10.0.0",
     "minimist": "^1.2.5",
     "sass": "^1.35.1",
-    "vite": "^2.3.0"
+    "vite": "^2.3.0",
+    "vite-plugin-vue2": "^1.7.3",
+    "vue-template-compiler": "^2.6.14"
   }
 }
