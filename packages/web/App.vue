@@ -6,13 +6,9 @@
   </div>
 </template>
 <script>
-import { loadPage } from '../micro-service'
 import { ref }      from '@vue/composition-api'
 
 export default {
-  mounted() {
-    loadPage('cases')
-  },
   setup() {
     return {
       msg: ref('Composition-api Ref msg!')

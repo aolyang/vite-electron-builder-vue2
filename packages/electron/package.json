@@ -1,0 +1,10 @@
+{
+  "name": "@root/electron",
+  "version": "1.0.0",
+  "main": "dist/main/index.cjs",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "sudo-prompt": "^9.2.1"
+  }
+}

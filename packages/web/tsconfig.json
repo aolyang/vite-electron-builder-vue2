@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "/@/*": [
+        "./src/*"
+      ]
+    },
+    "lib": ["ESNext", "dom", "dom.iterable"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "types/**/*.d.ts",
+    "../../types/**/*.d.ts",
+    "../electron/types/electron.global.d.ts"
+  ]
+}

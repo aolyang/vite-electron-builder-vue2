@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="874d5101-a257-4471-8288-cdeecc2a38a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/micro-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/microApps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/page-cases/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/page-cases/entry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/page-main/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/page-main/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/page-main/components/HelloWord.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/page-main/entry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/page-main/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/events/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/micro-service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/microApps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/page-cases/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/page-cases/entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/page-main/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/page-main/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/page-main/components/HelloWord.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/components/HelloWord.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/page-main/entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/page-main/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/vite.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cli.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/dev.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -40,17 +43,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/page-cases" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/web" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="AtomAssocConfig" />
-    <property name="ts.external.directory.path" value="C:\Users\Octo1996\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\211.7628.25\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="F:\company\web-next-vue2\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\company\web-next-vue2\packages\web" />
+      <recent name="F:\company\web-next-vue2" />
+      <recent name="F:\company\web-next-vue2\packages" />
       <recent name="F:\company\web-next-vue2\packages\page-cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\company\web-next-vue2\packages\page-main" />
       <recent name="F:\company\web-next-vue2\packages\page-main\assets" />
     </key>
   </component>
@@ -63,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626241730222</updated>
       <workItem from="1626241732258" duration="12299000" />
+      <workItem from="1626311021071" duration="21670000" />
     </task>
     <servers />
   </component>

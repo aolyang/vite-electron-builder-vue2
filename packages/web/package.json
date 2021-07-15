@@ -1,5 +1,5 @@
 {
-  "name": "page-main",
+  "name": "@root/main",
   "version": "0.0.1",
   "dependencies": {
 
